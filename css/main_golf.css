@@ -1,0 +1,44 @@
+body {
+  background-color: white;
+}
+
+.main {
+  margin-top: 10px;
+  padding-left: 100px;
+  min-width: 1200px;
+  height: 600px;
+  position: relative;
+  z-index: 1;
+}
+
+
+.golf {
+  width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.golf-ready, .golf-swing, .golf-up {
+  width: 100%;
+    height: 100%;
+}
+.golf-swing, .golf-up {
+  display: none;
+} 
+
+.golf-ready {
+  background-image: url('../images/golf-ready.png');
+}
+
+.golf-swing{
+  background-image: url('../images/golf-swing.png');
+}
+
+.golf-up {
+  background-image: url('../images/golf-up.png');
+}
+
+.golf-ready, .golf-swing, .golf-up {
+  background-repeat: no-repeat;
+}
+
